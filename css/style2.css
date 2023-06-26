@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;0,800;0,900;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.inicio img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center 60%;
+    filter: blur(0.09rem)
+}
+
+.inicio h1{
+    font-weight: 800;
+    font-size: 5rem;
+    background-color: #ffffff92;
+    padding: 10px;
+}
+
+.py-lg-5{
+    position: absolute;
+    top: 10%;
+}
+
+
+
+.col-lg-6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-md-4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container2{
+    min-height: 59vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-right: 50px;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 0px
+}
+
+.divImg{
+    min-width: 157px;
+}
+
+
+.col-3{
+    height: 171px;
+}
+
+.card{
+    min-width: 379px;
+    
+}
+
+.container span{
+    display: flex;
+    text-align: justify;
+}
+
+.container {
+    min-width: 220px ;
+    height: 171px;
+    overflow-y: scroll;
+}
+
+
+/* BARRA DE ROLAGEM CUSTOMIZADA */
+body::-webkit-scrollbar, .container::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track, .container::-webkit-scrollbar-track{
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb, .container::-webkit-scrollbar-thumb{
+    background-color: rgb(221, 221, 174);
+    border: 3px solid white;
+    
+}
+
+.placeholder-glow{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+
